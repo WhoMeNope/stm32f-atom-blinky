@@ -4,12 +4,12 @@
 -- Copyright: (c) 2013 Tom Hawkins & Lee Pike
 --
 
-module Language.Atom.Example.Gcd
+module Atom.Language.Atom.Example.Gcd
   ( compileExample
   , example
   ) where
 
-import Language.Atom
+import Atom.Language.Atom
 
 -- | Invoke the Atom compiler
 compileExample :: IO ()

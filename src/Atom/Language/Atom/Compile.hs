@@ -5,7 +5,7 @@
 --
 -- Atom compilation functions
 
-module Language.Atom.Compile
+module Atom.Language.Atom.Compile
   ( compile
   , reportSchedule
   , Schedule
@@ -15,11 +15,11 @@ import System.Exit
 import Control.Monad (when)
 import Data.Maybe (isJust)
 
-import Language.Atom.Code
-import Language.Atom.Scheduling
-import Language.Atom.Elaboration
-import Language.Atom.UeMap (emptyMap)
-import Language.Atom.Language hiding (Atom)
+import Atom.Language.Atom.Code
+import Atom.Language.Atom.Scheduling
+import Atom.Language.Atom.Elaboration
+import Atom.Language.Atom.UeMap (emptyMap)
+import Atom.Language.Atom.Language hiding (Atom)
 
 -- | Compiles an atom description to C.
 compile :: Name -> Config -> Atom () 

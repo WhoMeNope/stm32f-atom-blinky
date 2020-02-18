@@ -5,7 +5,7 @@
 --
 -- Fades one signal to another.
 
-module Language.Atom.Common.Fader
+module Atom.Language.Atom.Common.Fader
   ( Fader
   , FaderInit (..)
   , fader
@@ -14,8 +14,8 @@ module Language.Atom.Common.Fader
   , fadeToCenter
   ) where
 
-import Language.Atom.Expressions
-import Language.Atom.Language
+import Atom.Language.Atom.Expressions
+import Atom.Language.Atom.Language
 import Data.Int (Int32)
 
 -- | Fader object.

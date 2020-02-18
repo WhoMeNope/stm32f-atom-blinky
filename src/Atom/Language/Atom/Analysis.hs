@@ -3,13 +3,13 @@
 -- Description: -
 -- Copyright: (c) 2013 Tom Hawkins & Lee Pike
 
-module Language.Atom.Analysis
+module Atom.Language.Atom.Analysis
   ( topo
   , ruleComplexity
   ) where
 
-import Language.Atom.Elaboration
-import Language.Atom.UeMap
+import Atom.Language.Atom.Elaboration
+import Atom.Language.Atom.UeMap
 
 -- | Topologically sorts a list of expressions and subexpressions.
 topo :: UeMap -> [Hash] -> [(Hash, String)]

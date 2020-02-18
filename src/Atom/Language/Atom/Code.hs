@@ -5,7 +5,7 @@
 --
 -- Atom C code configuration and generation
 
-module Language.Atom.Code
+module Atom.Language.Atom.Code
   ( Config (..)
   , Clock (..)
   , writeC
@@ -21,12 +21,12 @@ import Text.Printf
 import Data.Word
 import qualified Data.Bimap as M
 
-import Language.Atom.Analysis
-import Language.Atom.Elaboration
-import Language.Atom.Expressions hiding (typeOf)
-import qualified Language.Atom.Expressions as E
-import Language.Atom.Scheduling
-import Language.Atom.UeMap
+import Atom.Language.Atom.Analysis
+import Atom.Language.Atom.Elaboration
+import Atom.Language.Atom.Expressions hiding (typeOf)
+import qualified Atom.Language.Atom.Expressions as E
+import Atom.Language.Atom.Scheduling
+import Atom.Language.Atom.UeMap
 
 -- | C code configuration parameters.
 data Config = Config

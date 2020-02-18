@@ -3,7 +3,7 @@
 -- Description: -
 -- Copyright: (c) 2013 Tom Hawkins & Lee Pike
 
-module Language.Atom.Elaboration
+module Atom.Language.Atom.Elaboration
   (
 --    UeStateT
   -- * Atom monad and container.
@@ -37,8 +37,8 @@ import Data.List
 import Data.Char
 import qualified Control.Monad.State.Strict as S
 
-import Language.Atom.Expressions hiding (typeOf)
-import Language.Atom.UeMap
+import Atom.Language.Atom.Expressions hiding (typeOf)
+import Atom.Language.Atom.UeMap
 
 
 type UID = Int

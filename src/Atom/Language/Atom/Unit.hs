@@ -5,7 +5,7 @@
 --
 -- Unit testing, coverage, reporting & debugging for Atom
 
-module Language.Atom.Unit
+module Atom.Language.Atom.Unit
   (
   -- * Types and Classes
     Test (..)
@@ -25,9 +25,9 @@ import Data.Bits
 import Data.Int
 import Data.List
 import Data.Word
-import Language.Atom.Code hiding (err)
-import Language.Atom.Compile
-import Language.Atom.Language
+import Atom.Language.Atom.Code hiding (err)
+import Atom.Language.Atom.Compile
+import Atom.Language.Atom.Language
 import System.Exit
 import System.IO
 import System.Process

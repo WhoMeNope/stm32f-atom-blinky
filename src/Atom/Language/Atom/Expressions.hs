@@ -1,12 +1,13 @@
+{-# LANGUAGE GADTs, DeriveDataTypeable #-}
+
 -- | 
 -- Module: Expressions
 -- Description: Definitions for expressions, variables, and types
 -- Copyright: (c) 2013 Tom Hawkins & Lee Pike
 --
 -- Definitions for Atom expressions, variables, and types
-{-# LANGUAGE GADTs, DeriveDataTypeable #-}
 
-module Language.Atom.Expressions
+module Atom.Language.Atom.Expressions
   (
   -- * Types
     E     (..)

@@ -7,9 +7,9 @@ This demonstrates the use of 'word16'' to reference an external variable, and
 the use of 'call' to call an external function.
 
 -}
-module Language.Atom.Example.External where
+module Atom.Language.Atom.Example.External where
 
-import Language.Atom
+import Atom.Language.Atom
 
 -- | Invoke the Atom compiler
 main :: IO ()

@@ -5,7 +5,7 @@
 --
 -- Common Atom functions
 
-module Language.Atom.Common
+module Atom.Language.Atom.Common
   (
   -- * Timers
     Timer
@@ -32,7 +32,7 @@ module Language.Atom.Common
 
 import Data.Word
 
-import Language.Atom.Language
+import Atom.Language.Atom.Language
 
 -- | A Timer.
 data Timer = Timer (V Word64)
@@ -164,12 +164,12 @@ readChannel (Channel a hasData) = do
   return a
 
 {-
-module Language.Atom.Common.Process
+module Atom.Language.Atom.Common.Process
   ( Process (..)
   , process
   ) where
 
-import Language.Atom
+import Atom.Language.Atom
 
 data Process
   = Par [Process]

@@ -4,7 +4,7 @@
 -- Copyright: (c) 2013 Tom Hawkins & Lee Pike
 --
 -- Capturing data that can either be valid or invalid.
-module Language.Atom.Common.ValidData
+module Atom.Language.Atom.Common.ValidData
   ( ValidData
   , validData
   , getValidData
@@ -12,8 +12,8 @@ module Language.Atom.Common.ValidData
   , whenInvalid
   ) where
 
-import Language.Atom.Expressions
-import Language.Atom.Language
+import Atom.Language.Atom.Expressions
+import Atom.Language.Atom.Language
 
 -- | 'ValidData' captures the data and its validity condition.
 --   'ValidData' is abstract to prevent rules from using invalid data.

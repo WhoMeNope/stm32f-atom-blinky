@@ -5,9 +5,9 @@
 --
 -- Definitions for the Atom EDSL itself
 
-module Language.Atom.Language
+module Atom.Language.Atom.Language
   (
-    module Language.Atom.Expressions
+    module Atom.Language.Atom.Expressions
   -- * Primary Language Containers
   , Atom
   -- * Hierarchical Rule Declarations
@@ -74,10 +74,10 @@ import Data.Int
 import Data.Word
 import Data.List (foldl')
 
-import Language.Atom.Elaboration hiding (Atom)
-import qualified Language.Atom.Elaboration as E
-import Language.Atom.Expressions
-import Language.Atom.UeMap hiding (typeOf)
+import Atom.Language.Atom.Elaboration hiding (Atom)
+import qualified Atom.Language.Atom.Elaboration as E
+import Atom.Language.Atom.Expressions
+import Atom.Language.Atom.UeMap hiding (typeOf)
 
 infixr 1 <==
 

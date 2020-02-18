@@ -23,7 +23,15 @@ dependencies:
 - base >= 4.7 && < 5
 
 library:
+  dependencies:
+  - mtl
+  - process
+  - syb
+  - containers
+  - bimap
   source-dirs: src
+  ghc-options:
+  - -Wall
 
 executables:
   stm32f-atom-blinky-exe:

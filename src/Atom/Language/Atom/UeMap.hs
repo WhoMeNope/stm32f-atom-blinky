@@ -6,7 +6,7 @@
 -- Sharing for 'UE's, based on IntMaps.  The idea is to share subexpressions
 -- of 'UE's.
 
-module Language.Atom.UeMap
+module Atom.Language.Atom.UeMap
   ( UeElem (..)
   , MUV (..)
   , UeMap
@@ -29,8 +29,8 @@ import Control.Monad.State.Strict
 import qualified Data.Bimap as M
 import Data.List (nub)
 
-import Language.Atom.Expressions hiding (typeOf)
-import qualified Language.Atom.Expressions as E
+import Atom.Language.Atom.Expressions hiding (typeOf)
+import qualified Atom.Language.Atom.Expressions as E
 
 type Hash = Int
 

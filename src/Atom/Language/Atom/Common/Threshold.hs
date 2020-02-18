@@ -4,13 +4,13 @@
 -- Copyright: (c) 2013 Tom Hawkins & Lee Pike
 --
 -- Time integrated threshold functions typically used in condition monitoring.
-module Language.Atom.Common.Threshold
+module Atom.Language.Atom.Common.Threshold
   ( boolThreshold
   , doubleThreshold
   ) where
 
-import Language.Atom.Expressions
-import Language.Atom.Language
+import Atom.Language.Atom.Expressions
+import Atom.Language.Atom.Language
 import Data.Int (Int32)
   
 -- | Boolean thresholding over time.  Output is set when internal counter hits

@@ -5,7 +5,7 @@
 --
 -- Algorithms for scheduling rules in Atom
 
-module Language.Atom.Scheduling
+module Atom.Language.Atom.Scheduling
   ( schedule
   , Schedule
   , reportSchedule
@@ -14,9 +14,9 @@ module Language.Atom.Scheduling
 import Text.Printf
 import Data.List
 
-import Language.Atom.Analysis
-import Language.Atom.Elaboration
-import Language.Atom.UeMap
+import Atom.Language.Atom.Analysis
+import Atom.Language.Atom.Elaboration
+import Atom.Language.Atom.UeMap
 
 -- | Schedule expressed as a 'UeMap' and a list of (period, phase, rules).
 type Schedule = (UeMap, [(Int, Int, [Rule])])

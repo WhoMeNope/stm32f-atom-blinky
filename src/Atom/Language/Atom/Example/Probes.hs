@@ -8,10 +8,10 @@ simply uses @printf@ to log a probe's value. Most POSIX systems should be able
 to build and run the generated C code.
 
 -}
-module Language.Atom.Example.Probes where
+module Atom.Language.Atom.Example.Probes where
 
 import Data.Word
-import Language.Atom
+import Atom.Language.Atom
 
 -- | Invoke the Atom compiler
 main :: IO ()

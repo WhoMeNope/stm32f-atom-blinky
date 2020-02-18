@@ -14,7 +14,7 @@ applications. Without mutex locking and run-time task scheduling,
 Atom eliminates the need and overhead of RTOSes for many embedded applications.
 -}
 
-module Language.Atom
+module Atom.Language.Atom
   ( -- * Code 
     -- | Module: "Language.Atom.Code" 
     Config (..), defaults, Clock (..), defaultClock, writeC, cType, RuleCoverage,
@@ -58,11 +58,11 @@ module Language.Atom
     printFloatingE, printProbe
   ) where
 
-import Language.Atom.Code
-import Language.Atom.Compile
-import Language.Atom.Common
-import Language.Atom.Common.Fader
-import Language.Atom.Common.Threshold
-import Language.Atom.Common.ValidData
-import Language.Atom.Language
-import Language.Atom.Unit
+import Atom.Language.Atom.Code
+import Atom.Language.Atom.Compile
+import Atom.Language.Atom.Common
+import Atom.Language.Atom.Common.Fader
+import Atom.Language.Atom.Common.Threshold
+import Atom.Language.Atom.Common.ValidData
+import Atom.Language.Atom.Language
+import Atom.Language.Atom.Unit
