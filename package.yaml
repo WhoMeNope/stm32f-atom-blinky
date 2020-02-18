@@ -21,6 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/WhoM
 
 dependencies:
 - base >= 4.7 && < 5
+- text
 
 library:
   dependencies:
@@ -29,6 +30,7 @@ library:
   - syb
   - containers
   - bimap
+  - neat-interpolation >= 0.5
   source-dirs: src
   ghc-options:
   - -Wall

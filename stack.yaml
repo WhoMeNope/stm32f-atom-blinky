@@ -39,7 +39,8 @@ packages:
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
-# extra-deps: []
+extra-deps:
+- neat-interpolation-0.5.1@sha256:19af6ecc2802c6e94655f91e74aa19dc1e02a73ed7b1292c0fa3f082daaf7124,2989
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
