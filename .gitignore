@@ -5,3 +5,4 @@ stm32f-atom-blinky.cabal
 lib/STM32Cube_FW_F7_V1.14.0/
 /*.c
 /*.h
+/a.out
