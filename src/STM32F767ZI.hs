@@ -10,10 +10,9 @@ import NeatInterpolation (trimming)
 import Data.Text (pack, unpack)
 
 -- | Invoke the atom compiler.
-compileProgram :: Atom () -> IO ()
-compileProgram program = do
-  let loopName = "main_loop"
-  (schedule, _, _, _, _) <- compile loopName defaults { cCode = prePostCode loopName } program
+compileProgram :: String -> Atom () -> IO ()
+compileProgram pname program = do
+  (schedule, _, _, _, _) <- compile pname defaults { cCode = prePostCode pname } program
   putStrLn $ reportSchedule schedule
 
 prePostCode :: String -> [Name] -> [Name] -> [(Name, Type)] -> (String, String)

@@ -4,7 +4,7 @@ import Atom.Language.Atom
 import STM32F767ZI (compileProgram)
 
 main :: IO ()
-main = compileProgram program
+main = compileProgram "blinky" program
 
 -- | An example design that computes the greatest common divisor.
 program :: Atom ()
