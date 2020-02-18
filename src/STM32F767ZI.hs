@@ -36,13 +36,14 @@ prePostCode loopName _ _ _ =
         else {
           a = atoi(argv[1]);
           b = atoi(argv[2]);
-          printf("Computing the GCD of %lu and %lu...\n\", a, b);"
+          printf("Computing the GCD of %lu and %lu...\n", a, b);
           while(running) {
             ${loopName'}();
-            printf("iteration:  a = %lu  b = %lu\n\", a, b);
+            printf("iteration:  a = %lu  b = %lu\n", a, b);
           }
-          printf("GCD result: %lu\n\", a);
+          printf("GCD result: %lu\n", a);
         }
+
         return 0;
       }
     |]
