@@ -2,7 +2,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 module STM32F767ZI
-  ( compileProgram
+  ( module Atom.Language.Atom
+  , compileProgram
   ) where
 
 import Atom.Language.Atom

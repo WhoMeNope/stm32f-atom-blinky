@@ -1,7 +1,6 @@
 module Main where
 
-import Atom.Language.Atom
-import STM32F767ZI (compileProgram)
+import STM32F767ZI
 
 main :: IO ()
 main = compileProgram "blinky" program
