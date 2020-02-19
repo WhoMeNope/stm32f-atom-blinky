@@ -18,5 +18,7 @@ mkShell {
   buildInputs = [
     # put packages here.
     stack
+
+    gcc-arm-embedded
   ];
 }
