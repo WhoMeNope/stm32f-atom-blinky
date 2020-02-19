@@ -99,6 +99,13 @@ prePostCode loopName _ _ _ =
         * @brief GPIO initialization structure
         */
       static GPIO_InitTypeDef  GPIO_InitStruct;
+
+      /**
+        * @brief toggle LED1
+        */
+      void toggleLED1() {
+        HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+      }
     |]
   , unpack $ [trimming|
       int main(int argc, char* argv[]) {
