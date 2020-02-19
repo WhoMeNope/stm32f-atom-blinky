@@ -134,6 +134,7 @@ prePostCode loopName _ _ _ =
         /* Run program loop */
         while(1) {
           ${loopName'}();
+          HAL_Delay(1);  // Sleep for 1 ms
         }
       }
 
